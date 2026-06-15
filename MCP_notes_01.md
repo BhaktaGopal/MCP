@@ -60,6 +60,12 @@ It's an external service that provides context, data, or capabilities to the LLM
 
 
 
+**MCP CLIENT:Requester**
+
+**MCP SERVER:Provider**
+
+
+
 
 
 **TRANSPORT LAYER:-**
@@ -86,5 +92,5 @@ For eg:- the below scenario:-
 
 
 
-**LLM->MCP CLIENT**(search available tools)->**LLM(**Generates a structured request to use these tools.)->**MCP CLIENT(**sends the request to appropriate MCP server)->**MCP SERVER(**receives the request does the necessary then sends back the response to LLM)->**LLM(**provides the final response)
+**LLM->MCP CLIENT**(search available tools)->\*\*LLM(\*\*Generates a structured request to use these tools.)->\*\*MCP CLIENT(\*\*sends the request to appropriate MCP server)->\*\*MCP SERVER(\*\*receives the request does the necessary then sends back the response to LLM)->\*\*LLM(\*\*provides the final response)
 
